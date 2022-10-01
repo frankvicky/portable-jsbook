@@ -47,10 +47,7 @@ const Preview: React.FC<PreviewProps> = ({ code, err }) => {
         setTimeout(() => {
             iframe.current.contentWindow.postMessage(code, '*');
         }, 50);
-    }, [code]);
-    
-    console.log(err);
-    
+    }, [code]); 
 
     return (
         <div className='preview-wrapper'>

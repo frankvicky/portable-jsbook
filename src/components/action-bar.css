@@ -1,0 +1,38 @@
+.action-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.25; 
+    transition: opacity 0.3s;
+  }
+  
+  .action-bar:hover {
+    opacity: 1;
+    
+  }
+
+  .action-bar .icon .fa-arrow-up {
+    transition: transform 0.3s;
+  }
+
+  .action-bar .icon .fa-arrow-up:hover {
+    transform: translateY(-0.5em); 
+  }
+  
+  .action-bar .icon .fa-arrow-down {
+    transition: transform 0.3s;
+  }
+
+  .action-bar .icon .fa-arrow-down:hover {
+    transform: translateY(0.5em); 
+  }
+
+  .action-bar .icon .fa-times {
+    transition: transform 0.3s;
+  }
+
+  .action-bar .icon .fa-times:hover {
+    transform: scale(1.5); 
+  }
+  
+  
